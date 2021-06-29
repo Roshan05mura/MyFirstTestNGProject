@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="7" passed="0" failed="7" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-29T14:00:05 IST" name="Default suite" finished-at="2021-06-29T14:00:45 IST" duration-ms="39558">
+  <suite started-at="2021-06-29T14:42:11 IST" name="Default suite" finished-at="2021-06-29T14:42:38 IST" duration-ms="26667">
     <groups>
     </groups>
-    <test started-at="2021-06-29T14:00:05 IST" name="Default test" finished-at="2021-06-29T14:00:45 IST" duration-ms="39558">
+    <test started-at="2021-06-29T14:42:11 IST" name="Default test" finished-at="2021-06-29T14:42:38 IST" duration-ms="26667">
       <class name="Selenium.NewTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Selenium.NewTest@2f177a4b]" started-at="2021-06-29T14:00:05 IST" name="beforeTest" finished-at="2021-06-29T14:00:24 IST" duration-ms="19081" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Selenium.NewTest@7f552bd3]" started-at="2021-06-29T14:42:11 IST" name="beforeTest" finished-at="2021-06-29T14:42:19 IST" duration-ms="7864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="f()[pri:1, instance:Selenium.NewTest@2f177a4b]" started-at="2021-06-29T14:00:24 IST" name="f" finished-at="2021-06-29T14:00:32 IST" duration-ms="7842" status="FAIL">
+        <test-method signature="f()[pri:1, instance:Selenium.NewTest@7f552bd3]" started-at="2021-06-29T14:42:19 IST" name="f" finished-at="2021-06-29T14:42:25 IST" duration-ms="6512" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A8081/login.html&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8081.
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'DESKTOP-KQP1K4Q', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 31908, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0dfed8cf-511e-42d0-b3a1-e56832a1a381]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 41300, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83644e65-5c35-4cfa-970d-a9cb8185bc89]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A8081/login.html&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8081.
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'DESKTOP-KQP1K4Q', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 31908, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0dfed8cf-511e-42d0-b3a1-e56832a1a381
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 41300, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83644e65-5c35-4cfa-970d-a9cb8185bc89
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -75,7 +75,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method signature="login()[pri:2, instance:Selenium.NewTest@2f177a4b]" started-at="2021-06-29T14:00:32 IST" name="login" finished-at="2021-06-29T14:00:32 IST" duration-ms="79" status="FAIL">
+        <test-method signature="login()[pri:2, instance:Selenium.NewTest@7f552bd3]" started-at="2021-06-29T14:42:25 IST" name="login" finished-at="2021-06-29T14:42:26 IST" duration-ms="39" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: #usernameInput
@@ -83,8 +83,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'DESKTOP-KQP1K4Q', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 31908, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0dfed8cf-511e-42d0-b3a1-e56832a1a381
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 41300, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83644e65-5c35-4cfa-970d-a9cb8185bc89
 *** Element info: {Using=css selector, value=#usernameInput}]]>
             </message>
             <full-stacktrace>
@@ -93,8 +93,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'DESKTOP-KQP1K4Q', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 31908, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0dfed8cf-511e-42d0-b3a1-e56832a1a381
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 41300, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83644e65-5c35-4cfa-970d-a9cb8185bc89
 *** Element info: {Using=css selector, value=#usernameInput}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
@@ -146,7 +146,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="openExpensesTab()[pri:3, instance:Selenium.NewTest@2f177a4b]" started-at="2021-06-29T14:00:32 IST" name="openExpensesTab" finished-at="2021-06-29T14:00:43 IST" duration-ms="10455" status="FAIL">
+        <test-method signature="openExpensesTab()[pri:3, instance:Selenium.NewTest@7f552bd3]" started-at="2021-06-29T14:42:26 IST" name="openExpensesTab" finished-at="2021-06-29T14:42:36 IST" duration-ms="10344" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: .mx-name-tabPage1 (tried for 10 second(s) with 500 milliseconds interval)]]>
@@ -189,8 +189,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'DESKTOP-KQP1K4Q', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 31908, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0dfed8cf-511e-42d0-b3a1-e56832a1a381
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 41300, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83644e65-5c35-4cfa-970d-a9cb8185bc89
 *** Element info: {Using=css selector, value=.mx-name-tabPage1}
 at jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -216,7 +216,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openExpensesTab -->
-        <test-method signature="NewButton()[pri:4, instance:Selenium.NewTest@2f177a4b]" started-at="2021-06-29T14:00:43 IST" name="NewButton" finished-at="2021-06-29T14:00:43 IST" duration-ms="18" status="FAIL">
+        <test-method signature="NewButton()[pri:4, instance:Selenium.NewTest@7f552bd3]" started-at="2021-06-29T14:42:36 IST" name="NewButton" finished-at="2021-06-29T14:42:36 IST" duration-ms="23" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: .mx-name-newButton1
@@ -224,8 +224,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'DESKTOP-KQP1K4Q', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 31908, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0dfed8cf-511e-42d0-b3a1-e56832a1a381
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 41300, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83644e65-5c35-4cfa-970d-a9cb8185bc89
 *** Element info: {Using=css selector, value=.mx-name-newButton1}]]>
             </message>
             <full-stacktrace>
@@ -234,8 +234,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'DESKTOP-KQP1K4Q', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 31908, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0dfed8cf-511e-42d0-b3a1-e56832a1a381
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 41300, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83644e65-5c35-4cfa-970d-a9cb8185bc89
 *** Element info: {Using=css selector, value=.mx-name-newButton1}
 at jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -286,7 +286,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewButton -->
-        <test-method signature="SearchButton()[pri:5, instance:Selenium.NewTest@2f177a4b]" started-at="2021-06-29T14:00:43 IST" name="SearchButton" finished-at="2021-06-29T14:00:43 IST" duration-ms="18" status="FAIL">
+        <test-method signature="SearchButton()[pri:5, instance:Selenium.NewTest@7f552bd3]" started-at="2021-06-29T14:42:36 IST" name="SearchButton" finished-at="2021-06-29T14:42:36 IST" duration-ms="14" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: .mx-name-searchButton1
@@ -294,8 +294,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'DESKTOP-KQP1K4Q', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 31908, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0dfed8cf-511e-42d0-b3a1-e56832a1a381
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 41300, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83644e65-5c35-4cfa-970d-a9cb8185bc89
 *** Element info: {Using=css selector, value=.mx-name-searchButton1}]]>
             </message>
             <full-stacktrace>
@@ -304,8 +304,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'DESKTOP-KQP1K4Q', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 31908, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0dfed8cf-511e-42d0-b3a1-e56832a1a381
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 41300, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83644e65-5c35-4cfa-970d-a9cb8185bc89
 *** Element info: {Using=css selector, value=.mx-name-searchButton1}
 at jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -356,7 +356,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchButton -->
-        <test-method signature="DeleteButton()[pri:6, instance:Selenium.NewTest@2f177a4b]" started-at="2021-06-29T14:00:43 IST" name="DeleteButton" finished-at="2021-06-29T14:00:43 IST" duration-ms="17" status="FAIL">
+        <test-method signature="DeleteButton()[pri:6, instance:Selenium.NewTest@7f552bd3]" started-at="2021-06-29T14:42:36 IST" name="DeleteButton" finished-at="2021-06-29T14:42:36 IST" duration-ms="12" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: .mx-name-actionButton2
@@ -364,8 +364,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'DESKTOP-KQP1K4Q', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 31908, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0dfed8cf-511e-42d0-b3a1-e56832a1a381
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 41300, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83644e65-5c35-4cfa-970d-a9cb8185bc89
 *** Element info: {Using=css selector, value=.mx-name-actionButton2}]]>
             </message>
             <full-stacktrace>
@@ -374,8 +374,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'DESKTOP-KQP1K4Q', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 31908, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0dfed8cf-511e-42d0-b3a1-e56832a1a381
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 41300, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83644e65-5c35-4cfa-970d-a9cb8185bc89
 *** Element info: {Using=css selector, value=.mx-name-actionButton2}
 at jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -426,7 +426,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteButton -->
-        <test-method signature="signOut()[pri:7, instance:Selenium.NewTest@2f177a4b]" started-at="2021-06-29T14:00:43 IST" name="signOut" finished-at="2021-06-29T14:00:43 IST" duration-ms="13" status="FAIL">
+        <test-method signature="signOut()[pri:7, instance:Selenium.NewTest@7f552bd3]" started-at="2021-06-29T14:42:36 IST" name="signOut" finished-at="2021-06-29T14:42:36 IST" duration-ms="10" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: .mx-name-sidebarToggle1
@@ -434,8 +434,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'DESKTOP-KQP1K4Q', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 31908, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0dfed8cf-511e-42d0-b3a1-e56832a1a381
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 41300, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83644e65-5c35-4cfa-970d-a9cb8185bc89
 *** Element info: {Using=css selector, value=.mx-name-sidebarToggle1}]]>
             </message>
             <full-stacktrace>
@@ -444,8 +444,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'DESKTOP-KQP1K4Q', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 31908, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0dfed8cf-511e-42d0-b3a1-e56832a1a381
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210620185922, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 41300, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83644e65-5c35-4cfa-970d-a9cb8185bc89
 *** Element info: {Using=css selector, value=.mx-name-sidebarToggle1}
 at jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -496,7 +496,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signOut -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Selenium.NewTest@2f177a4b]" started-at="2021-06-29T14:00:43 IST" name="afterTest" finished-at="2021-06-29T14:00:45 IST" duration-ms="1855" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Selenium.NewTest@7f552bd3]" started-at="2021-06-29T14:42:36 IST" name="afterTest" finished-at="2021-06-29T14:42:38 IST" duration-ms="1743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
