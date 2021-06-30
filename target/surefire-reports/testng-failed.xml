@@ -6,7 +6,13 @@
       <class name="Selenium.NewTest">
         <methods>
           <include name="afterTest"/>
+          <include name="NewButton"/>
+          <include name="signOut"/>
           <include name="beforeTest"/>
+          <include name="DeleteButton"/>
+          <include name="SearchButton"/>
+          <include name="openExpensesTab"/>
+          <include name="login"/>
           <include name="f"/>
         </methods>
       </class> <!-- Selenium.NewTest -->
