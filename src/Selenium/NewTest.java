@@ -14,7 +14,7 @@ public class NewTest {
 		 
 	      @Test(priority=1)
 		  public void f() {  
-			  driver.get("http://localhost:8081/login.html");
+			  driver.get("https://aws.amazon.com/console/");
 		  }
 		  
 		  @Test(priority=2)
@@ -73,7 +73,7 @@ public class NewTest {
 	  
 		 	 @BeforeTest
 	  public void beforeTest() {
-		  System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
+		  System.setProperty("webdriver.gecko.driver","/usr/bin/geckodriver");
 		  driver= new FirefoxDriver();	  
 	  }
 	  

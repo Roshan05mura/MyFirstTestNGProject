@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-30T07:55:12Z" name="Suite" finished-at="2021-06-30T07:55:36Z" duration-ms="24568">
+    <groups>
+    </groups>
+    <test started-at="2021-06-30T07:55:12Z" name="Test" finished-at="2021-06-30T07:55:36Z" duration-ms="24568">
+      <class name="Selenium.NewTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Selenium.NewTest@73e9cf30]" started-at="2021-06-30T13:25:12Z" name="beforeTest" finished-at="2021-06-30T13:25:25Z" duration-ms="13375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f()[pri:1, instance:Selenium.NewTest@73e9cf30]" started-at="2021-06-30T13:25:25Z" name="f" finished-at="2021-06-30T13:25:27Z" duration-ms="1684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="login()[pri:2, instance:Selenium.NewTest@73e9cf30]" started-at="2021-06-30T13:25:27Z" name="login" finished-at="2021-06-30T13:25:28Z" duration-ms="977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="openExpensesTab()[pri:3, instance:Selenium.NewTest@73e9cf30]" started-at="2021-06-30T13:25:28Z" name="openExpensesTab" finished-at="2021-06-30T13:25:32Z" duration-ms="4164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openExpensesTab -->
+        <test-method signature="NewButton()[pri:4, instance:Selenium.NewTest@73e9cf30]" started-at="2021-06-30T13:25:32Z" name="NewButton" finished-at="2021-06-30T13:25:33Z" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewButton -->
+        <test-method signature="SearchButton()[pri:5, instance:Selenium.NewTest@73e9cf30]" started-at="2021-06-30T13:25:33Z" name="SearchButton" finished-at="2021-06-30T13:25:34Z" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchButton -->
+        <test-method signature="DeleteButton()[pri:6, instance:Selenium.NewTest@73e9cf30]" started-at="2021-06-30T13:25:34Z" name="DeleteButton" finished-at="2021-06-30T13:25:34Z" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteButton -->
+        <test-method signature="signOut()[pri:7, instance:Selenium.NewTest@73e9cf30]" started-at="2021-06-30T13:25:34Z" name="signOut" finished-at="2021-06-30T13:25:35Z" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Selenium.NewTest@73e9cf30]" started-at="2021-06-30T13:25:35Z" name="afterTest" finished-at="2021-06-30T13:25:36Z" duration-ms="1613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Selenium.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
